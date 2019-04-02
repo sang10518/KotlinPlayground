@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
         val savedFrag: Fragment? = supportFragmentManager.findFragmentByTag(tag)
         savedFrag?.let {
             supportFragmentManager.beginTransaction().hide(mCurFragment).show(savedFrag).commit()
+            supportFragmentManager.executePendingTransactions()
             mCurFragment = savedFrag!!
         } ?: run{
             val newFragment: Fragment?
@@ -71,6 +72,7 @@ class MainActivity : AppCompatActivity() {
             }
             newFragment?.let{
                 supportFragmentManager.beginTransaction().hide(mCurFragment).add(R.id.container, newFragment, tag).addToBackStack(null).commit()
+                supportFragmentManager.executePendingTransactions()
 //                Log.e("swc", "bscount after add: " +supportFragmentManager.backStackEntryCount )
                 mCurFragment = newFragment
             }
