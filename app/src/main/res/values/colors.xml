@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 공통 -->
+    <color name="default_background_color">#FFFFFF</color>
+    <color name="common_edit_button_text_color">#646464</color>
+    <color name="splash_backgroud_color">#ffd200</color>
+    <color name="common_line_horizontal_seperator_color">#ececec</color>
+    <color name="common_line_list_plate_seperator_color">#e5e5e5</color>
+    <color name="serie_home_info_line_seperator_color">#e5e5e5</color>
+    <color name="common_white_color">#ffffff</color>
+    <color name="common_brown_grey">#999999</color>
+    <drawable name="common_section_divider_color">#eeeeee</drawable>
+
+    <drawable name="main_container_top_sub_toolbar_plate_color">#f6f6f1</drawable>
+    <drawable name="main_container_top_sub_toolbar_plate_bottom_1px_color">#cccccc</drawable>
+    <drawable name="title_bar_background">#673d86</drawable>
+
+    <color name="navigationbar_background_top">#7E539D</color>
+    <color name="navigationbar_background_bottom">#553071</color>
+    <color name="list_item_title_text_color">#333333</color>
+    <color name="list_item_information_text_color">#9c9c9c</color>
+    <color name="list_item_information2_text_color">#9c9c9c</color>
+
+    <!-- 홈 -->
+    <color name="tile_view_divider_color">#E8E8E8</color>
+    <color name="section_tap_text_color_nor">#919191</color>
+    <color name="section_tap_text_color_hig">#1e1e1e</color>
+    <color name="section_tag_text_color">#505050</color>
+    <color name="tag_home_icon_info_text_color">#666666</color>
+    <color name="tag_home_icon_info_total_text_color">#939393</color>
+    <color name="section_main_text_color">#333333</color>
+    <color name="section_sub_text_color">#919191</color>
+    <color name="section_sub_text_color2">#9c9c9c</color>
+    <color name="section_spinner_text_color">#999999</color>
+    <color name="section_horizontal_banner_list_item_gap_color">#00ffffff</color>
+
+    <color name="strategy_button_normal_color">#F4F4F4</color>
+    <color name="strategy_button_highlighted_color">#FFCA28</color>
+
+    <color name="series_poster_item_light_text_layout_bg">#FCFCFC</color>
+    <drawable name="permission_notice_confirm_hig">#f7c427</drawable>
+    <drawable name="permission_notice_confirm_nor">#ffca28</drawable>
+
+    <!-- [더보기] 책갈피 목록 -->
+    <color name="favorite_list_permission_over_text_color">#ff4242</color>
+
+    <!-- 삭제한 슬라이드 -->
+    <drawable name="deleted_list_palte_top_1px">#ffffff</drawable>
+    <drawable name="deleted_list_palte_top_1px_highlight">#dcdcd1</drawable>
+    <drawable name="deleted_list_palte_bottom_1px">#d5d9de</drawable>
+    <drawable name="deleted_list_palte_bottom_1px_highlight">#d5d9de</drawable>
+
+    <color name="deleted_list_series_title_text_color">#333333</color>
+    <color name="deleted_list_series_info_text_color">#8b9198</color>
+    <color name="deleted_list_title_text_color">#1b1b1b</color>
+    <color name="deleted_list_info_text_color">#a0a9b4</color>
+    <color name="deleted_list_restore_done_text_color">#9c9c9c</color>
+    <color name="deleted_list_restore_button_text_color">#9c9c9c</color>
+
+    <!-- 보관함 -->
+    <color name="container_downloaded_item_title_color">#1e1e1e</color>
+    <color name="container_downloaded_item_sub_color">#a0a0a0</color>
+    <color name="empty_list_text_color">#939393</color>
+
+    <!-- 시리즈 홈 -->
+    <drawable name="series_home_top_plate_color">#edede8</drawable>
+
+    <color name="series_home_information_title_text_color">#1e1e1e</color>
+    <color name="series_home_information_sub_text_color">#919191</color>
+    <color name="series_home_information_sub_text_color2">#473b15</color>
+    <color name="series_home_information_purchase_condition_tag_text_color">#424242</color>
+    <color name="series_home_information_purchase_condition_text_color">#888888</color>
+    <color name="series_home_information_description_button_text_color">#646464</color>
+    <color name="series_home_toggle_button_on">#646464</color>
+    <color name="series_home_toggle_total_button_on">#646464</color>
+    <color name="series_home_toggle_button_off">#bebebe</color>
+    <color name="series_home_toggle_total_button_off">#bebebe</color>
+    <color name="series_home_top_sub_edit_button_text_color">#646464</color>
+    <color name="series_home_total_tap_order_radio_button_text_color">#424242</color>
+    <color name="series_home_total_tap_order_radio_button_sub_text_color">#888888</color>
+    <color name="series_home_total_tap_order_radio_button_unactivate_text_color">#626262</color>
+    <color name="series_home_storage_item_title_text_color">#1e1e1e</color>
+    <color name="series_home_storage_item_info_text_color">#919191</color>
+    <color name="series_home_storage_item_size_text_color">#919191</color>
+    <color name="series_home_storage_item_download_blue_button_text_color">#ffffff</color>
+    <color name="series_home_storage_item_download_grey_button_text_color">#88919c</color>
+    <color name="series_home_storage_item_download_darkgrey_button_text_color">#ffffff</color>
+    <color name="series_home_go_button_text_color">#919191</color>
+    <color name="series_home_prepurchase_banner_text_color">#9c9c9c</color>
+    <color name="series_home_background_color">#eeeeee</color>
+    <color name="series_home_info_divider_color">#e5e5e5</color>
+
+    <drawable name="series_home_storage_item_plate_color">#f7f7f0</drawable>
+    <drawable name="series_home_storage_item_plate_color_highlight">#e4e4de</drawable>
+    <drawable name="series_home_storage_item_plate_top_1px">#ffffff</drawable>
+    <drawable name="series_home_storage_item_plate_top_1px_highlight">#dcdcd1</drawable>
+    <drawable name="series_home_storage_item_plate_bottom_1px">#e2e2d7</drawable>
+    <drawable name="series_home_storage_item_plate_bottom_1px_highlight">#ffffff</drawable>
+
+    <color name="series_home_red_color">@color/default_red_color</color>
+    <color name="series_home_black_color">#1e1e1e</color>
+    <color name="series_home_header_background">#ffffff</color>
+
+    <color name="vod_series_home_title_color">#1e1e1e</color>
+    <color name="vod_series_home_sub_color">#999999</color>
+    <color name="vod_series_home_sub_color2">#666666</color>
+    <color name="vod_series_home_rating_color">#ffca28</color>
+    <color name="vod_series_home_notice_color">#1e1e1e</color>
+    <color name="vod_series_home_download_area_sub_info_color">#908f8f</color>
+    <drawable name="vod_series_home_header_divider">#e4e4e4</drawable>
+    <drawable name="vod_series_home_header_fat_divider">#eeeeee</drawable>
+    <color name="vod_series_home_item_main_text_color">#1e1e1e</color>
+    <color name="vod_series_home_item_sub_text_color">#a0a0a0</color>
+    <color name="vod_series_home_item_sub_text_color2">#ababab</color>
+    <color name="vod_series_home_item_sub_text_color3">#919191</color>
+    <color name="vod_series_home_point_text_color">#ffca28</color>
+    <drawable name="vod_series_home_header_spinner_divider">#f3f3f3</drawable>
+    <color name="point_event_list_item_bg">#101010</color>
+
+    <!-- 검색 -->
+    <drawable name="search_plate_bottom_1px_color">#eaecee</drawable>
+    <drawable name="search_list_item_bottom_1px_color">#d5d9de</drawable>
+
+    <color name="search_delete_edit_text_color">#333333</color>
+    <color name="search_list_item_title_text_color">#1b1b1b</color>
+    <color name="search_list_item_info2_text_color">#88919c</color>
+    <color name="search_list_item_info3_text_color">#00abff</color>
+    <color name="search_list_item_info_text_color">#88919c</color>
+
+    <!-- 더보기 메뉴 -->
+    <drawable name="additional_menu_plate_color">#eff2f6</drawable>
+    <drawable name="additional_menu_plate_color_highlight">#dee3e8</drawable>
+    <drawable name="additional_menu_plate_top_1px_color">#3a3c3d</drawable>
+    <drawable name="additional_menu_plate_top_1px_color_highlight">#262627</drawable>
+    <drawable name="additional_menu_plate_bottom_1px_color">#303233</drawable>
+    <drawable name="additional_menu_plate_bottom_1px_color_highlight">#262627</drawable>
+    <drawable name="additional_menu_profile_plate_color">#ffffff</drawable>
+    <drawable name="additional_menu_profile_plate_top_1px_color">#3a3c3d</drawable>
+    <drawable name="additional_menu_profile_plate_bottom_1px_color">#e8e8e8</drawable>
+
+    <color name="additional_menu_index_text_color">#f3f3f3</color>
+    <color name="additional_menu_index_text_color_highlight">#ffffff</color>
+    <color name="additional_menu_index_update_count_color">#ffffff</color>
+    <color name="additional_menu_choco_purchase_button_color">#575757</color>
+    <color name="additional_menu_choco_purchase_button_color_highlight">#575757</color>
+
+    <!-- setting -->
+    <drawable name="setting_item_plate">#ffffff</drawable>
+    <drawable name="setting_item_plate_highlight">#f8f8f8</drawable>
+    <drawable name="setting_item_plate_top">#ffffff</drawable>
+    <drawable name="setting_item_plate_top_highlight">#dcdcd1</drawable>
+    <drawable name="setting_item_plate_bottom">#d5d9de</drawable>
+    <drawable name="setting_item_plate_bottom_highlight">#ffffff</drawable>
+    <drawable name="setting_item_plate_left">#ffffff</drawable>
+    <drawable name="setting_item_plate_left_highlight">#dcdcd1</drawable>
+
+    <color name="setting_my_profile_plate">#ffffff</color>
+    <color name="setting_profile_top_line_color">#ffffff</color>
+    <color name="setting_profile_bottom_line_color">#e8e8e8</color>
+    <color name="setting_profile_top_tag_text_color">#1b1b1b</color>
+    <color name="setting_profile_top_text_color">#88919c</color>
+    <color name="setting_profile_logout_button_text_color">#ffffff</color>
+    <color name="setting_profile_withdraw_text_color">#88919c</color>
+    <color name="setting_capacity_info_tag_text_color">#1b1b1b</color>
+    <color name="setting_capacity_info_text_color">#88919c</color>
+    <color name="setting_version_info_tag_text_color">#333333</color>
+    <color name="setting_version_info_text_color">#8b9198</color>
+    <color name="setting_version_info_update_button_text_color">#8b9198</color>
+    <color name="setting_plate_text_color">#333333</color>
+
+    <drawable name="setting_version_info_section_line">#d3d3d3</drawable>
+
+    <!-- category bar -->
+    <color name="categorybar_text_color">#9c9c9c</color>
+
+    <drawable name="categorybar_top_1px">#d5d9de</drawable>
+    <drawable name="categorybar_bottom_1px">#ececec</drawable>
+
+    <!-- etc -->
+    <color name="share_hint_color">#a1a1a1</color>
+    <color name="share_text_color_on_last_page">#666666</color>
+
+    <!-- reLaunch -->
+    <!-- main container tab -->
+    <color name="main_container_tab_text_color_on">#31afff</color>
+    <color name="main_container_tab_text_color_off">#a2a6b4</color>
+    <color name="list_shawdow_color">#b0b5ba</color>
+    <color name="recommend_sub_tab_text_color_on">#3fd386</color>
+    <color name="recommend_sub_tab_text_color_off">#9aa3ae</color>
+
+    <drawable name="series_home_list_plate_color">#ffffff</drawable>
+    <drawable name="series_home_list_plate_color_selected">#f5f5f5</drawable>
+    <drawable name="series_home_list_plate_color_highlighted">#fbfbfb</drawable>
+    <drawable name="series_home_list_plate_color_selected_highlighted">#eaeaea</drawable>
+    <drawable name="void_series_home_header_color">#ffffff</drawable>
+    <drawable name="void_series_home_header_more_info_color">#f9f9f9</drawable>
+
+    <color name="category_selection_list_header_item_main_text_default">#646b75</color>
+    <color name="category_selection_list_header_item_main_text_selected">#00A8FF</color>
+    <color name="category_selection_list_header_item_bg_default">#FBFBFB</color>
+    <color name="category_selection_list_header_item_bg_highlighted">#C3C4C8</color>
+    <color name="category_selection_list_header_item_line_default">#D5D9DE</color>
+    <color name="category_selection_list_sub_item_main_text_default">#FFFFFF</color>
+    <color name="category_selection_list_sub_item_main_text_highlighted">#C3C4C8</color>
+    <color name="category_selection_list_sub_item_main_text_selected">#00BAFF</color>
+    <color name="category_selection_list_sub_item_bg_default">#5A6067</color>
+    <color name="category_selection_list_sub_item_bg_highlighted">#51575F</color>
+    <color name="category_selection_list_sub_item_line_default">#72787F</color>
+
+    <!-- search -->
+    <color name="search_tab_text_color_on">#00a8ff</color>
+    <color name="search_tab_text_color_off">#88919c</color>
+
+    <!-- 오류화면 -->
+    <color name="error_view_title_color">#333333</color>
+    <color name="error_view_desc_color">#9c9c9c</color>
+    <color name="wait_free_special_list_error_text_color">#666666</color>
+
+    <!-- 이용권 구매 -->
+    <color name="series_ticket_buy_title_area_line">#2D2E2F</color>
+    <color name="series_ticket_buy_title_area_bg">#252526</color>
+    <color name="series_ticket_buy_item_area_bg">#FFFFFF</color>
+    <color name="series_ticket_buy_header_seperator_color">#393939</color>
+    <color name="series_ticket_buy_header_inner_seperator_color">#EBEBEB</color>
+    <color name="series_ticket_buy_seperator_linecolor">#f5f5f5</color>
+    <color name="series_ticket_buy_insufficient_subtext_area_bg">#A0A0A0</color>
+
+    <color name="multibuy_total_price_color_before_applied_coupon">#666666</color>
+    <color name="multibuy_rental_price_color">#41d308</color>
+    <color name="cash_applied_color">#66000000</color>
+    <color name="origin_rental_price_color">#438429</color>
+    <color name="origin_possession_price_color">#3D6494</color>
+    <color name="rental_color_in_dark_bg">#8CEA66</color>
+    <color name="possession_color_in_dark_bg">#86BCFF</color>
+    <drawable name="multibuy_background">#efefef</drawable>
+
+    <color name="series_ticket_buy_title_area_sub_text">#777777</color>
+    <color name="series_ticket_buy_item_area_description_text">#9C9C9C</color>
+    <color name="series_ticket_buy_item_area_description_text2">#CCCCCC</color>
+
+    <color name="cash_coupon_price_text">#333333</color>
+
+    <!-- webseries -->
+    <color name="webseries_title_color">#646b75</color>
+    <color name="webseries_viewtotal_color">#969ca4</color>
+    <color name="webseries_day_color_normal">#919191</color>
+    <color name="webseries_day_color_highlited">#1e1e1e</color>
+    <color name="webseries_item_title_text_color">#1e1e1e</color>
+    <color name="webseries_item_author_text_color">#919191</color>
+    <color name="webseries_item_readcount_text_color">#009cff</color>
+    <color name="webseries_item_top_rank_color">#009cff</color>
+    <color name="webseries_item_normal_rank_color">#9dabb5</color>
+    <color name="webseries_premium_ticket_info_text_color">#646b75</color>
+    <color name="webseries_premium_ticket_info_seperator">#dcdcdc</color>
+    <color name="webseries_readcount_default_color">#848484</color>
+
+    <!-- edit mode -->
+    <color name="delete_confirm_button_text_color">#ffffff</color>
+    <color name="delete_confirm_button_text_color_disable">#fcfcfc</color>
+
+    <!-- 만화뷰 -->
+    <color name="zoom_guide_dialog_background">#D9000000</color>
+    <color name="moa_download_guide_dialog_background">#E0000000</color>
+
+    <!-- 팝업 버튼 -->
+    <color name="popup_dontshowagain_normal">#ffffff</color>
+    <color name="popup_dontshowagain_highlighted">#f8f8f8</color>
+    <color name="popup_close_normal">#ffffff</color>
+    <color name="popup_close_highlighted">#f8f8f8</color>
+
+    <!-- 팝업 -->
+    <color name="friend_invitation_additional_popup_message">#888888</color>
+    <color name="welcome_friend_gift_popup_text_highlighted">#448aff</color>
+    <color name="welcome_friend_gift_popup_background_color">#99000000</color>
+    <color name="welcome_friend_gift_popup_line_horizontal_seperator_color">#d9d9d9</color>
+
+    <!-- 서브 카테고리 헤더 버튼 텍스트 -->
+    <color name="subcategory_header_text_color_normal">#b2b2b2</color>
+    <color name="subcategory_header_text_color_highlighted">#333333</color>
+    <color name="subcategory_header_sub_text_color">#919191</color>
+    <color name="wait_free_tab_text_color_normal">#bbbbbb</color>
+    <color name="wait_free_tab_text_color_hig">#333333</color>
+    <drawable name="wait_free_tab_normal">#ffffff</drawable>
+
+    <!-- 12시간기다리면무료 헤더 버튼 텍스트 -->
+    <drawable name="wait_free_12h_tab_normal">#000000</drawable>
+    <color name="wait_free_12h_tab_text_color_normal">#808080</color>
+
+    <!-- 용량 관리 -->
+    <color name="storage_manager_seperator_line">#e8e8e8</color>
+    <color name="storage_manager_default_text_color">#9c9c9c</color>
+
+    <!-- 탭 -->
+    <color name="tab_text_selected">#ffd200</color>
+    <color name="tab_text_unselected">#9b9b9b</color>
+    <drawable name="tab_indicater_color">#ffd200</drawable>
+    <drawable name="tab_bottom_line">#242526</drawable>
+    <color name="tab_blue_text_selected">#448aff</color>
+
+    <!-- 드로워 -->
+    <color name="drawer_single_button_highlight">#f8f8f8</color>
+
+    <color name="home_header_button">#ffffff</color>
+    <color name="home_header_button_highlight">#ffffff</color>
+
+    <color name="receive_gift_enabled_text">#448aff</color>
+    <color name="receive_gift_disabled_text">#c2c1c1</color>
+    <color name="gift_box_receive_gift_enabled_text">#473b15</color>
+    <color name="gift_box_receive_gift_disabled_text">#ababab</color>
+
+    <color name="card_blue_bg_nor">#3C7BE3</color>
+
+    <color name="buyticket_header_gray_divider">#333333</color>
+    <color name="multibuy_header_gray_divider">#454545</color>
+    <color name="my_comment_background_color">#fafcff</color>
+    <color name="other_comment_background_color">#FFFFFF</color>
+    <color name="other_reply_comment_background_color">#f9f9f9</color> <!-- 대댓글 배경 -->
+    <color name="other_reply_comment_divider_color">#d9d9d9</color> <!-- 대댓글 구분선 -->
+
+    <!-- 추천하면 무료 -->
+    <color name="free_gift_recommend_friend_default_text_color">#666666</color>
+    <color name="free_gift_recommend_friend_sub_text_color">#999999</color>
+    <color name="free_gift_recommend_friend_background_color">#02cadc</color>
+    <color name="friend_gift_list_sub_title_color">#9c9c9c</color>
+
+    <color name="widget_configuration_background_color">#3d3e40</color>
+    <color name="widget_configuration_line_color">#535557</color>
+
+    <!-- 신규사용자 추천작품 -->
+    <!--<color name="guide_home_cover_page_background">#fad100</color>-->
+
+    <!-- circle indicator -->
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <!-- line indicator -->
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+
+    <!-- 투명 배경 -->
+    <color name="black_10">#1a000000</color>
+    <drawable name="black_15">#26000000</drawable>
+    <drawable name="black_20">#33000000</drawable>
+    <drawable name="black_30">#4d000000</drawable>
+    <drawable name="black_50">#80000000</drawable>
+    <drawable name="black_60">#99000000</drawable>
+    <drawable name="black_70">#b3000000</drawable>
+    <drawable name="black_85">#d9000000</drawable>
+    <drawable name="white_50">#80ffffff</drawable>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_70">#B3ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_15">#26ffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="dark_65">#a6191919</color>
+
+    <!-- 인기 목록-->
+    <color name="ranking_top_ranker_color">#448aff</color>
+    <color name="ranking_lower_ranker_color">#8B9198</color>
+
+    <color name="section_list_1px_line_color">#e5e5e5</color>
+
+    <!-- 댓글 -->
+    <color name="comment_share_checkbox_text_selected">#007DFF</color>
+    <color name="comment_share_checkbox_text_unselected">#9c9c9c</color>
+    <color name="comment_real_1px_line_color">#DEDEDE</color>
+    <color name="comment_edittext_color">#666666</color>
+    <color name="comment_edittext_hint_color">#ACB0B4</color>
+    <color name="comment_wordcount_text_color">#C6C6C6</color>
+    <color name="comment_emoticon_btn_background_color">#00000000</color>
+
+    <!-- MGM: 친구 초대 -->
+    <drawable name="friend_invitation_white">#ffffff</drawable>
+    <drawable name="friend_invitation_alpha_white">#b3ffffff</drawable>
+    <drawable name="friend_invitation_black">#000000</drawable>
+    <drawable name="friend_invitation_alpha_black">#0d000000</drawable>
+
+    <color name="friend_invitation_white_color">#ffffff</color>
+    <color name="friend_invitation_dark_gray_color">#666666</color>
+    <color name="friend_invitation_light_gray_color">#bfbfbf</color>
+
+    <color name="friend_invitation_nickname_text_color">#777777</color>
+    <color name="friend_invitation_list_item_nickname_text_color">#333333</color>
+    <color name="friend_invitation_request_reward_text_color">#333333</color>
+    <color name="friend_invitation_total_count_text_color">#bcbcbc</color>
+    <color name="friend_invitation_waiting_friend_text_color">#d5d5d5</color>
+    <color name="friend_invitation_reward_text_color">#2074ff</color>
+    <color name="friend_invitation_list_item_reward_text_color">#448aff</color>
+    <color name="friend_invitation_invite_count_text_color">#e3f0ff</color>
+    <color name="friend_invitation_join_count_text_color">#ffeb7c</color>
+    <color name="friend_invitation_line_horizontal_seperator_color">#ececec</color>
+    <color name="friend_invitation_invite_button_text_color">#b1b1b1</color>
+
+
+    <!-- cpv vod player -->
+    <color name="cpv_vod_progressbar_background_color">#26000000</color>
+    <color name="cpv_vod_progressbar_progress_color">#FFFFFF</color>
+
+    <!-- kakao sdk -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- Today Cash -->
+    <color name="default_yellow">#ffd200</color>
+    <color name="today_cash_section_divider_color">#262626</color>
+    <color name="today_cash_default_background_color">#181818</color>
+    <color name="today_cash_guide_text_color">#1e1e1e</color>
+    <color name="today_cash_help_main_text_color">#222222</color>
+    <color name="today_cash_help_sub_text_color">#888888</color>
+    <color name="today_cash_tab_selected">#ffd200</color>
+    <color name="today_cash_tab_default">#9b9b9b</color>
+    <!-- 태그 콜렉션 -->
+    <color name="tag_collection_main_special_area_bg">#252526</color>
+    <color name="tag_collection_main_special_area_text">#9b9b9b</color>
+
+    <!-- 티커 -->
+    <color name="ticker_divider_color">#e5bd00</color>
+
+    <!-- 라이브 댓글-->
+    <color name="event_comment_auto_update_text_color">#888888</color>
+    <color name="event_comment_save_text_enable_color">#333333</color>
+    <color name="event_comment_write_layout_bg_color">#1B1B1C</color>
+
+    <!-- VOD -->
+    <color name="vod_series_season_info_text_selector_normal">#888888</color>
+    <color name="vod_series_season_info_text_selector_selected">#4b91e9</color>
+    <color name="vod_series_home_highlight_text_color">#ffca28</color>
+    <color name="vod_viewer_text_color">#888888</color>
+    <color name="vod_viewer_recommend_text_color">#666666</color>
+    <color name="vod_viewer_end_viewer_background_color_80">#cc000000</color>
+    <color name="vod_viewer_end_viewer_background_color_70">#b3000000</color>
+    <color name="vod_viewer_normal_text_color">#ffffff</color>
+    <color name="vod_viewer_highlight_text_color">#ffca28</color>
+    <color name="vod_viewer_seekbar_progress_bg_color">#515151</color>
+    <color name="vod_viewer_seekbar_secondary_progress_color">#534b20</color>
+    <color name="vod_viewer_seekbar_progress_color">#ffca28</color>
+    <color name="vod_viewer_box_real_1px_line_color_40">#66c2c2c2</color>
+    <color name="vod_viewer_end_1px_line_color">#2a2a2a</color>
+    <color name="section_black_cell_bg">#242526</color>
+    <color name="section_black_cell_divider">#3c3c3c</color>
+    <color name="section_black_cell_title_color">#c6c6c6</color>
+    <color name="section_black_cell_sub_info_color">#919191</color>
+    <color name="section_big_picture_feed_description_text_color">#c6c6c6</color>
+    <color name="section_big_picture_feed_point_info_on_text_color">#ffca28</color>
+    <color name="section_big_picture_feed_point_info_off_text_color">#888888</color>
+    <color name="section_big_picture_feed_sub_text_color">#919191</color>
+
+    <!-- 공통 -->
+    <color name="default_text_color">#333333</color>
+    <color name="viewer_new_navigation_bg_color">#DD000000</color>
+    <color name="slide_title_text_color">#575757</color>
+    <drawable name="actionbar_bg_color">#FFFFFF</drawable>
+    <drawable name="actionbar_dark_bg_color">#242526</drawable>
+    <drawable name="actionbar_dark_bg_color2">#252526</drawable> <!-- 2.x에서 242526 정상적으로 적용되지 않는 부분이 있어서 대체용 색으로 사용-->
+    <drawable name="actionbar_black_bg_color">#000000</drawable>
+    <color name="actionbar_button_bg_highlighted">#71c7ed</color>
+    <color name="index_actionbar_button_bg_highlighted">#eaeaea</color>
+    <color name="white_actionbar_button_bg_highlighted">#f7f7f7</color>
+    <color name="dark_actionbar_button_bg_highlighted">#33ffffff</color>
+    <color name="viewer_menu_button_bg_highlighted">#242525</color>
+    <color name="default_blue_color">#448aff</color>
+    <color name="default_green_color">#41d308</color>
+    <color name="default_red_color">#ff5252</color>
+    <color name="default_orange_color">#ff9100</color>
+    <drawable name="default_blue_color_d">#448aff</drawable>
+    <drawable name="default_blue_color_highlight">#4185f5</drawable>
+    <color name="dark_actionbar_shadow">#ffffff</color>
+    <color name="default_yellow_btn_main_text_color">#1e1e1e</color>
+    <color name="default_yellow_btn_sub_text_color">#947b12</color>
+
+    <!-- viewer -->
+    <drawable name="slide_viewer_index_plate_top_line">#DFE4EB</drawable>
+    <drawable name="slide_viewer_index_plate_bottom_line">#DFE4EB</drawable>
+
+    <color name="slide_viewer_navibar_button_text">#ffffff</color>
+    <color name="slide_viewer_navibar_button_text2">#424242</color>
+
+    <color name="viewer_page_indicator_text_color">#bebebe</color>
+    <color name="slide_viewer_audio_time_font_color">#bebebe</color>
+    <color name="slide_viewer_audio_panel_color">#fafafa</color>
+    <color name="slide_viewer_background_color">#E2E1DE</color>
+    <color name="slide_viewer_plate_background_color">#FFFFFF</color>
+    <color name="slide_viewer_handler_line_default_color">#F5F3EC</color>
+    <color name="slide_viewer_handler_line_bottom_color">#A69100</color>
+    <color name="slide_viewer_bottom_line1">#EEEEEE</color>
+    <color name="slide_viewer_bottom_line2">#FFFFFF</color>
+
+    <color name="viewer_page_seek_progress_color">#ffd200</color>
+    <color name="viewer_menu_default_color">#ffffff</color>
+    <color name="viewer_menu_highlight_color">#ffd200</color>
+
+    <color name="audio_viewer_dark_gray_color">#4d4d4d</color>
+
+    <color name="vod_viewer_progress_bg_color">#575757</color>
+    <color name="vod_viewer_secondary_progress_color">#4d4d4d</color>
+    <color name="vod_viewer_progress_color">#ffd200</color>
+
+    <!-- viewer end -->
+    <color name="viewer_end_main_text_color">#333333</color>
+    <color name="viewer_end_main_text_color2">#5a6067</color>
+    <color name="viewer_end_sub_text_color">#666666</color>
+    <color name="viewer_end_sub_text_color2">#999999</color>
+    <color name="viewer_end_sub_text_color3">#ffffff</color>
+    <color name="viewer_end_emphasis_text_color">@color/default_blue_color</color>
+    <color name="viewer_end_background_color">#ffffff</color>
+    <color name="viewer_end_button_text_color">#473b15</color>
+
+    <!-- share -->
+    <color name="default_black_text_color">#424242</color>
+    <color name="default_white_text_color">#ffffff</color>
+    <color name="white_button_text_color">#646464</color>
+    <color name="white_button_unenable_text_color">#D0D0D0</color>
+
+
+    <!-- etc -->
+    <color name="popup_background_color">#a14a4a4a</color>
+    <color name="popup_agreement_background_color">#f1f1f1</color>
+    <color name="transparent_background_color">#00ffffff</color>
+    <color name="popup_default_text_color">#676561</color>
+
+    <!-- Actionbar -->
+    <color name="actionbar_title_color">#ffffff</color> <!-- 5A6067  -->
+    <color name="actionbar_menu_title_color_gray">#BABABA</color>
+    <color name="actionbar_menu_title_color_blue">#0064BE</color>
+    <color name="actionbar_menu_title_color_white">#FFFFFF</color>
+    <color name="actionbar_menu_title_color_black">#333333</color>
+    <drawable name="actionbar_spinner_drop_down_list_normal">#242526</drawable>
+    <drawable name="actionbar_spinner_drop_down_list_pressed">#272829</drawable>
+    <drawable name="white_spinner_drop_down_list_normal">#FFFFFF</drawable>
+    <drawable name="white_spinner_drop_down_list_pressed">#F0F0F0</drawable>
+
+    <!-- for Pull to refresh -->
+    <color name="solid_white">#ffffffff</color>
+    <color name="secondary_text">#ff999999</color>
+
+    <!--  epub -->
+    <color name="epub_viewer_toc_divider_color">#ececec</color>
+    <color name="epub_viewer_toc_selector_color">#f8f6f6</color>
+    <color name="epub_text_color">#888888</color>
+    <color name="epub_text_color2">#fbfbfb</color>
+    <color name="epub_index_tab_selected">#ffd200</color>
+    <color name="epub_index_tab_default">#9b9b9b</color>
+
+    <!-- for PageSlidingTabStrip -->
+    <color name="background_tab_pressed">#19b8b8b8</color>
+
+    <!-- Alert Dialog -->
+    <color name="custom_alert_dialog_windows_background">#FFFFFF</color>
+    <color name="custom_alert_dialog_title_background">@color/default_blue_color</color>
+    <color name="custom_alert_dialog_title_textcolor">#FFFFFF</color>
+    <color name="custom_alert_dialog_message_textcolor">#333333</color>
+    <color name="custom_alert_dialog_sub_message_textcolor">#8B9198</color>
+    <color name="custom_alert_dialog_black_color">#666666</color>
+    <color name="custom_alert_dialog_sub_message_with_checkbox_color">#b7b7b7</color>
+    <color name="custom_alert_dialog_red_color">@color/default_red_color</color>
+
+    <color name="custom_alert_dialog_button_separator">#DDDDDD</color>
+    <color name="custom_alert_dialog_cancel_button_textcolor">#999999</color>
+    <color name="custom_alert_dialog_confirm_button_textcolor">@color/default_blue_color</color>
+    <color name="custom_alert_dialog_button_backgound_highlighted">#F8F8F8</color>
+    <color name="custom_alert_dialog_button_backgound_normal">#FFFFFF</color>
+
+    <color name="cash_coupon_info_sub_text_color">#777777</color>
+    <color name="custom_alert_dialog_coupon_info_coupon_description_text_color">#ababab</color>
+
+    <color name="my_point_list_amount_color">#548af7</color>
+
+    <!-- 친구초대 메시 입력 팝업 -->
+    <color name="friend_invitation_send_popup_edit_message_textcolor">#8D8D8D</color>
+    <color name="friend_invitation_send_popup_word_count_textcolor">#B1B1B1</color>
+</resources>
